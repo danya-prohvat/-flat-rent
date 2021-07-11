@@ -1,0 +1,14 @@
+.myProfile{
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+.myProfile img{
+    width: 28px;
+    margin-right: 8px;
+}
+.myProfile span{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}

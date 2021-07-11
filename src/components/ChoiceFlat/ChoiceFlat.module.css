@@ -1,0 +1,12 @@
+.choiceFlat{
+    background-color: #F7F7F7;
+
+}
+
+.choiceFlat__wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

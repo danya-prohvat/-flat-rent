@@ -1,0 +1,55 @@
+.flatAd {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    min-height: 120px;
+}
+
+.flatAd__img {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flatAd__img img {
+    width: 100%;
+    border: 1px solid #DCDCDC;
+}
+
+.flatAd__text {
+    margin-left: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.flatAd__title {
+
+}
+
+.flatAd__price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.flatAd__description {
+    font-size: 15px;
+    color: #808080;
+}
+
+.flatAd__location {
+    font-size: 15px;
+    color: #808080;
+}

@@ -1,0 +1,17 @@
+.topLine{
+    background-color: #36263B;
+}
+
+.topLine__wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.myProfileContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
