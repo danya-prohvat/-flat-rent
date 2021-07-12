@@ -1,8 +1,4 @@
-// const ADD_NEW_ITEM = 'ADD-NEW-ITEM';
-// const DELETE_ITEM = 'DELETE-ITEM-ITEM';
-// const TOGGLE_DONE_ITEM = 'TOGGLE-DONE-ITEM';
-// const CLEAR_COMPLETED_ITEMS = 'CLEAR-COMPLETED-ITEMS';
-// const CHANGE_SHOW_WHAT = 'CHANGE-SHOW-WHAT';
+const SET_ACTIVE_PAGE = 'SET-ACTIVE-PAGE';
 
 let initialState = {
     flats: [
@@ -38,33 +34,397 @@ let initialState = {
             description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
             images: ['id4.1.jpg']
         },
-    ]
+
+        {
+            id: 5,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 6,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 7,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 8,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 9,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 10,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id:11,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 12,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 13,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 14,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 15,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 16,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 17,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 18,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 19,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 20,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id:21,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 22,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 23,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 24,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 25,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 26,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 27,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 28,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 29,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 30,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 31,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 32,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 33,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 34,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 35,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 36,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 37,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 38,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 39,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 40,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 41,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 42,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 43,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 44,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 45,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 46,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 47,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 48,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 49,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+        {
+            id: 50,
+            title: "Сдам квартиру на Соцгороде",
+            price: "4 300 грн.",
+            location: "Харьков",
+            description: {squareMeter: '45 м2', floor: '5', withFurnitures: false},
+            images: ['id4.1.jpg']
+        },
+    ],
+    activePage: 1,
+    pageSize: 5,
+
 };
 
 
 const flatCollectionReducer = (state = initialState, action) => {
     switch (action.type) {
-        // case ADD_NEW_ITEM: {
-        //     if (action.newItemText.trim() == '') return {...state};
-        //     let newItem = {
-        //         id: !!state.matter.length ? state.matter[state.matter.length - 1].id + 1 : 1,
-        //         description: action.newItemText.trim(),
-        //         done: false
-        //     };
-        //     return {
-        //         ...state,
-        //         matter: [...state.matter, newItem]
-        //     };
-        // }
+        case SET_ACTIVE_PAGE: {
+            if (action.newActivePage < 1 ) return {...state};
+            else if (action.newActivePage > Math.ceil(state.flats.length / state.pageSize)) return {...state};
+            return {
+                ...state,
+                activePage: action.newActivePage,
+            };
+        }
         default:
             return state;
     }
 }
 
-// export const addNewItemCreator = newItemText => ({type: ADD_NEW_ITEM, newItemText});
-// export const deleteNewItemCreator = itemId => ({type: DELETE_ITEM, itemId});
-// export const toggleDoneCreator = itemId => ({type: TOGGLE_DONE_ITEM, itemId});
-// export const clearCompletedCreator = () => ({type: CLEAR_COMPLETED_ITEMS});
-// export const changeShowWhatCreator = showWhatValue => ({type: CHANGE_SHOW_WHAT, showWhatValue});
+export const setActivePageCreator = newActivePage => ({type: SET_ACTIVE_PAGE, newActivePage});
 
 export default flatCollectionReducer;

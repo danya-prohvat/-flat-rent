@@ -7,9 +7,12 @@ import {connect} from "react-redux";
 
 const FlatAds = (props) => {
 
-    let flatElements = props.flats.map(el => {
+    let flatElements = props.flats.slice((props.activePage-1) * props.pageSize, props.activePage * props.pageSize).map(el => {
         return <FlatAd key={el.id} flat={el}/>
     })
+
+
+    // console.log(props.flats.);
 
     return (<div className={classNames(styles.flatAds)}>
         <h2 className={classNames(styles.blockTitle)}>Обьявления</h2>
@@ -17,8 +20,5 @@ const FlatAds = (props) => {
     </div>);
 }
 
-let mapStateToProps = (state) => ({
-    flats: state.flatCollectionPage.flats,
-})
 
-export default connect(mapStateToProps, {})(FlatAds);
+export default FlatAds;
