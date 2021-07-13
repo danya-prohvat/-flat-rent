@@ -23,6 +23,14 @@
     width: 50px;
     height: 18px;
     margin-right: 15px;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.flatFilterForm__fieldInput:hover{
+    box-shadow: 0px 1px 5px 0px rgba(212,207,207,0.6);
 }
 
 .flatFilterForm__checkboxBlock{
@@ -33,9 +41,13 @@
     color:  #959595;
     font-size: 16px;
     margin-left: 5px;
+
 }
 
-.flatFilterForm__fieldCheckbox{
+.flatFilterForm__fieldCheckbox {
+    cursor: pointer;
+    outline: none;
+
 }
 
 .flatFilterForm__selectBlock {
@@ -52,6 +64,9 @@
 .flatFilterForm__fieldSelect {
     margin-left: 25px;
     margin-bottom: 15px;
+    cursor: pointer;
+    outline: none;
+
 }
 
 .flatFilterForm__fieldSelect option {

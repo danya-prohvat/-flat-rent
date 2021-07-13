@@ -450,8 +450,8 @@ const flatCollectionReducer = (state = initialState, action) => {
 
             function flatsFiltel(desc, flatsObjProperty, formDataProperty, operator) {
                 if (desc) {
-                    if (operator === '>=') return filteredFlats.filter(el => el.description[flatsObjProperty].replace(" ", "") >= formDataProperty);
-                    if (operator === '<=') return filteredFlats.filter(el => el.description[flatsObjProperty].replace(" ", "") <= formDataProperty);
+                    if (operator === '>=') return filteredFlats.filter(el => el.description[flatsObjProperty] >= formDataProperty);
+                    if (operator === '<=') return filteredFlats.filter(el => el.description[flatsObjProperty] <= formDataProperty);
                     return filteredFlats.filter(el => el.description[flatsObjProperty] == formDataProperty)
                 }
                 if (operator === '>=') return filteredFlats.filter(el => el[flatsObjProperty].replace(" ", "") >= formDataProperty);
