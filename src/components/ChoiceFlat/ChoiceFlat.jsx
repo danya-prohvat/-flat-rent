@@ -5,16 +5,14 @@ import FlatFilter from "./FlatFilter/FlatFilter";
 import FlatAds from "./FlatAds/FlatAds";
 import Pagination from "./Pagination/Pagination";
 import {connect} from "react-redux";
-import {setActivePageCreator} from "../../rudux/flatCollection-reducer";
+import {setActivePageCreator, filterCreator} from "../../rudux/flatCollection-reducer";
 
 
 const ChoiceFlat = (props) => {
 
-    // console.log(props.flats);
-
     return (<div className={classNames(styles.choiceFlat)}>
         <div className={classNames(styles.choiceFlat__wrapper)}>
-            <FlatFilter />
+            <FlatFilter citiesSet={props.citiesSet} filterCreator={props.filterCreator} />
             <FlatAds flats={props.flats} activePage={props.activePage} pageSize={props.pageSize}/>
         </div>
         <div className={classNames(styles.choiceFlat__wrapper)}>
@@ -28,6 +26,7 @@ let mapStateToProps = (state) => ({
     flats: state.flatCollectionPage.flats,
     activePage: state.flatCollectionPage.activePage,
     pageSize: state.flatCollectionPage.pageSize,
+    citiesSet: state.flatCollectionPage.citiesSet,
 })
 
-export default connect(mapStateToProps, {setActivePageCreator})(ChoiceFlat);
+export default connect(mapStateToProps, {setActivePageCreator, filterCreator})(ChoiceFlat);
