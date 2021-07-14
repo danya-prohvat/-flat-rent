@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from "./FlatAd.module.css";
 import classNames from 'classnames';
+import {NavLink} from "react-router-dom";
 
 
 const FlatAd = (props) => {
 
 
-    return (<div className={classNames(styles.flatAd)}>
+    return (<NavLink to={"/flat/" + props.flat.id} className={classNames(styles.flatAd)}>
         <div className={classNames(styles.flatAd__img)}>
             <img src={'/flatImages/' + props.flat.images[0]} />
         </div>
@@ -16,7 +17,7 @@ const FlatAd = (props) => {
             <div className={classNames(styles.flatAd__description)}>{props.flat.description.squareMeter  + ' м2.' + ' • ' + 'Комнат: ' + props.flat.description.rooms + ' '}{props.flat.description.withFurnitures ? ' • C мебелью' : ' • Без мебели' }</div>
             <div className={classNames(styles.flatAd__location)}>{props.flat.location}</div>
         </div>
-    </div>);
+    </NavLink>);
 }
 
 

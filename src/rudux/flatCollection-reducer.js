@@ -9,7 +9,7 @@ let server = {
             price: "20 550",
             location: "Кривой Рог",
             description: {squareMeter: '45', rooms: '5', withFurnitures: true},
-            images: ['id1.1.jpg']
+            images: ['id1.1.jpg', 'id1.2.jpg', 'id1.3.jpg', 'id1.4.jpg', 'id1.5.jpg', 'id1.6.jpg', 'id1.7.jpg', 'id1.8.jpg']
         },
         {
             id: 2,
@@ -17,7 +17,7 @@ let server = {
             price: "3 500",
             location: "Киев",
             description: {squareMeter: '37', rooms: '2', withFurnitures: false},
-            images: ['id2.1.jpg']
+            images: ['id2.1.jpg', 'id2.2.jpg', 'id2.3.jpg', 'id2.4.jpg', 'id2.5.jpg', 'id2.6.jpg', 'id2.7.jpg', 'id2.8.jpg']
         },
         {
             id: 3,
@@ -25,7 +25,7 @@ let server = {
             price: "1 800",
             location: "Днепр",
             description: {squareMeter: '67', rooms: '2', withFurnitures: true},
-            images: ['id3.1.jpg']
+            images: ['id3.1.jpg', 'id3.2.jpg', 'id3.3.jpg', 'id3.4.jpg', 'id3.5.jpg', 'id3.6.jpg', 'id3.7.jpg', 'id3.8.jpg']
         },
         {
             id: 4,
@@ -33,7 +33,7 @@ let server = {
             price: "4 300",
             location: "Харьков",
             description: {squareMeter: '112', rooms: '3', withFurnitures: false},
-            images: ['id4.1.jpg']
+            images: ['id4.1.jpg', 'id4.2.jpg', 'id4.3.jpg', 'id4.4.jpg', 'id4.5.jpg', 'id4.6.jpg', 'id4.7.jpg', 'id4.8.jpg']
         },
         {
             id: 5,
@@ -41,7 +41,7 @@ let server = {
             price: "4 000",
             location: "Николаев",
             description: {squareMeter: '50', rooms: '2', withFurnitures: true},
-            images: ['id5.1.jpg']
+            images: ['id5.1.jpg', 'id5.2.jpg', 'id5.3.jpg', 'id5.4.jpg', 'id5.5.jpg', 'id5.6.jpg', 'id5.7.jpg', 'id5.8.jpg']
         },
         {
             id: 6,

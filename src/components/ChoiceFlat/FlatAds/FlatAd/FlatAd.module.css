@@ -10,6 +10,8 @@
     margin-bottom: 20px;
     /*height: 120px;*/
     min-height: 170px;
+    text-decoration: none;
+    cursor: default;
 }
 
 .flatAd__img {
@@ -17,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .flatAd__img img {
@@ -38,12 +41,14 @@
 }
 
 .flatAd__title {
-
+    color: #000000;
+    cursor: pointer;
 }
 
 .flatAd__price {
     font-size: 22px;
     font-weight: 600;
+    color: #000000;
 }
 
 .flatAd__description {

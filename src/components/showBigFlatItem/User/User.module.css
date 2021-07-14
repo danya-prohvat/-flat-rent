@@ -1,0 +1,19 @@
+.user{
+    width: 20%;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.user img{
+    width: 40px;
+    margin-right: 12px;
+}
+.user span{
+    font-family: 'Roboto', sans-serif;
+    /*color: #FFFFFF;*/
+    font-size: 26px;
+}

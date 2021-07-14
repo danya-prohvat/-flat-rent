@@ -1,0 +1,3 @@
+var $swap=null;swiperSlider=function(s){s.options=s.options||{};if(s.hasOwnProperty('container')){if(Array.isArray($swap)){$swap.forEach(function(s){s.destroy();})}
+$('.swiper-lazy:not([src])').removeClass('swiper-lazy-loaded');$swap=new Swiper(s.container,Object.assign({direction:'horizontal',loop:false,pagination:{el:'.swiper-pagination',},watchOverflow:true,lazy:true,preloadImages:false,},s.options));}
+return $swap;};document.addEventListener('updateSlider',function(){if(Array.isArray($swap)){$swap.forEach(function(el){el.update();});}},false);
