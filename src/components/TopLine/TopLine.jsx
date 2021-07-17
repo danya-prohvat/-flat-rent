@@ -3,7 +3,7 @@ import styles from "./TopLine.module.css";
 import classNames from 'classnames';
 import SiteName from "./SiteName/SiteName";
 import MyProfile from "./MyProfile/MyProfile";
-import PostAd from "./PostAd/PostAd";
+import {connect} from "react-redux";
 
 
 const TopLine = (props) => {
@@ -13,12 +13,17 @@ const TopLine = (props) => {
         <div className={classNames(styles.topLine__wrapper)}>
             <SiteName />
             <div className={classNames(styles.myProfileContainer)}>
-                <MyProfile />
-                <PostAd />
+                <MyProfile authorized={props.authorized} authorizedPerson={props.authorizedPerson} />
             </div>
         </div>
     </div>);
 }
 
 
-export default TopLine;
+
+let mapStateToProps = (state) => ({
+    authorized: state.usersPage.authorized,
+    authorizedPerson: state.usersPage.authorizedPerson,
+})
+
+export default connect(mapStateToProps, {})(TopLine);
