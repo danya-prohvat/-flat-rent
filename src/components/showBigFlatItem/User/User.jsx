@@ -6,10 +6,10 @@ import personIcon from "../../../assets/personIcon.svg";
 
 const User = (props) => {
 
-
     return (<div className={classNames(styles.user)}>
         <img src={personIcon} alt=""/>
-        <span>Daniil</span>
+        {/*<span>{props.author}</span>*/}
+        <span>{props.authorizedPerson == props.author ? 'Вы' : props.author}</span>
     </div>);
 }
 

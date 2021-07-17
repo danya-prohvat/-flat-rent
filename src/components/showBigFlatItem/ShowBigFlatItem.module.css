@@ -44,15 +44,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header__mainInfo{
+.header__mainInfo {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
 }
-.header__description{
+
+.header__description {
 
 }
-.header__description p{
+
+.header__description p {
     margin-top: 0;
     margin-bottom: 4px;
 }
@@ -68,7 +70,112 @@
     font-size: 26px;
 }
 
-.flatItem__container{
+.flatItem__container {
     display: flex;
     align-items: flex-start;
 }
+
+.flatItem__button {
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #34982D;
+    background-color: transparent;
+    border: 2px solid #34982D;
+    padding: 6px 30px;
+}
+
+.form__mainInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #8F8F8F;
+}
+
+.form__title {
+    font-size: 22px;
+    min-width: 500px;
+}
+
+.form__price {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 18px;
+    max-width: 120px;
+}
+
+.form__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__fieldCheckbox {
+
+}
+
+.form__city {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form__city p{
+    margin: 0;
+}
+
+.form__rooms {
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.form__rooms p{
+    margin: 0;
+}
+
+.form__select {
+    margin-left: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form__squareMeter {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.form__squareMeter p {
+    margin: 0;
+}
+
+.form__squareMeterField {
+    width: 50px;
+    margin-left: 15px;
+}
+
+.form__WithFurnitures {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.form__fieldCheckbox{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
