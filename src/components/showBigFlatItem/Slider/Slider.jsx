@@ -25,7 +25,7 @@ const Slider = (props) => {
         <img onClick={prevArrowOnClick} className={classNames(styles.arrows, styles.arrows__prev)} src={prevArrow}
              alt=""/>
 
-        <img className={classNames(styles.img)} src={'/flatImages/' + props.imgs[currentImg]} alt=""/>
+        <img className={classNames(styles.img)} src={'./flatImages/' + props.imgs[currentImg]} alt=""/>
 
         <img onClick={nextArrowOnClick} className={classNames(styles.arrows, styles.arrows__next)} src={nextArrow}
              alt=""/>

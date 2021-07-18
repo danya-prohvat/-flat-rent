@@ -9,7 +9,7 @@ const FlatAd = (props) => {
 
     return (<NavLink to={"/flat/" + props.flat.id} className={classNames(styles.flatAd)}>
         <div className={classNames(styles.flatAd__img)}>
-            <img src={'/flatImages/' + props.flat.images[0]} />
+            <img src={'./flatImages/' + props.flat.images[0]} />
         </div>
         <div className={classNames(styles.flatAd__text)}>
             <span className={classNames(styles.flatAd__title)}>{props.flat.title}</span>
