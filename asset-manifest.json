@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/flat-rent/static/css/main.c41d2abe.chunk.css",
-    "main.js": "/flat-rent/static/js/main.0438035e.chunk.js",
-    "main.js.map": "/flat-rent/static/js/main.0438035e.chunk.js.map",
+    "main.js": "/flat-rent/static/js/main.8a4bfa25.chunk.js",
+    "main.js.map": "/flat-rent/static/js/main.8a4bfa25.chunk.js.map",
     "runtime-main.js": "/flat-rent/static/js/runtime-main.a4131c4b.js",
     "runtime-main.js.map": "/flat-rent/static/js/runtime-main.a4131c4b.js.map",
     "static/js/2.8d83595e.chunk.js": "/flat-rent/static/js/2.8d83595e.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a4131c4b.js",
     "static/js/2.8d83595e.chunk.js",
     "static/css/main.c41d2abe.chunk.css",
-    "static/js/main.0438035e.chunk.js"
+    "static/js/main.8a4bfa25.chunk.js"
   ]
 }
