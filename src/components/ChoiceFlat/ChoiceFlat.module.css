@@ -1,6 +1,8 @@
 .choiceFlat{
     background-color: #F7F7F7;
-
+    padding-top: 70px;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .choiceFlat__wrapper{

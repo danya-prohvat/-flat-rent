@@ -9,6 +9,8 @@ const Pagination = (props) => {
 
     const createPaginationItems = () => {
 
+        window.scrollTo(0, 0);
+
         let paginationItems = [];
         let totalPages = Math.ceil(props.totalItemCount / props.pageSize);
 

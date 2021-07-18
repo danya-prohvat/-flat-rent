@@ -1,5 +1,7 @@
 .topLine{
     background-color: #36263B;
+    position: fixed;
+    width: 100%;
 }
 
 .topLine__wrapper{

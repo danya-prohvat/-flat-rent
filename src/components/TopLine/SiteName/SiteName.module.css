@@ -1,5 +1,14 @@
-.logoText{
+.logoText {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 26px;
+}
+
+.siteName {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.siteName:hover {
+    transform: scale(1.01);
 }

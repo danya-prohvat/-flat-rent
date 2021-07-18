@@ -1,5 +1,7 @@
 .showBigFlatItem {
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
     background-color: #F7F7F7;
 }
 
@@ -85,6 +87,10 @@
     background-color: transparent;
     border: 2px solid #34982D;
     padding: 6px 30px;
+}
+
+.flatItem__button:hover{
+    transform:scale(1.01) ;
 }
 
 .form__mainInfo {

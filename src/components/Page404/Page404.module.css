@@ -1,0 +1,14 @@
+.page404{
+    background-color: #F7F7F7;
+    text-align: center;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.page404 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
