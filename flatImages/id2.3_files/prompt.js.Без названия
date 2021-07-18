@@ -1,0 +1,1 @@
+$(document).on('click','.prompt-box .close',function(){document.cookie="hide_bcampaign=1";$('.prompt-box').hide();});
