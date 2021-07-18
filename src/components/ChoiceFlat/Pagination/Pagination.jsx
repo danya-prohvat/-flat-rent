@@ -18,23 +18,23 @@ const Pagination = (props) => {
             for (let i = 1; i < props.activePage; i++) paginationItems.push(createLi(i));
         else {
             paginationItems.push(createLi(1));
-            paginationItems.push(createLi());
+            paginationItems.push(createLi(null, 'firstPoints'));
             for (let i = props.activePage - 3; i < props.activePage; i++) paginationItems.push(createLi(i));
         }
 
         for (let i = props.activePage; i < props.activePage + 5 && i <= totalPages; i++) paginationItems.push(createLi(i));
 
         if (totalPages - props.activePage > 4) {
-            paginationItems[paginationItems.length - 1] = createLi();
+            paginationItems[paginationItems.length - 1] = createLi(null, 'secondPoints');
             paginationItems.push(createLi(totalPages));
         }
 
-        function createLi(ind) {
+        function createLi(ind, pointsKey) {
             return ind ? <li
                     className={classNames(styles.pagination__li, {[styles.pagination__li_active]: ind === props.activePage})}
                     id={'paginatorItem' + ind} key={ind}
                     onClick={paginationItemOnClick}>{ind}</li>
-                : <li className={classNames(styles.pagination__li)}>...</li>;
+                : <li key={pointsKey} className={classNames(styles.pagination__li)}>...</li>;
         }
 
         return paginationItems;

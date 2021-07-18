@@ -2,13 +2,14 @@
     background-color: #36263B;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 .topLine__wrapper{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 1000px;
     margin: 0 auto;
 }

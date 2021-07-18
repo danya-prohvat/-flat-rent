@@ -1,12 +1,12 @@
 .showBigFlatItem {
-    padding-top: 40px;
+    padding-top: 95px;
     padding-bottom: 60px;
     box-sizing: border-box;
     background-color: #F7F7F7;
 }
 
 .showBigFlatItem__wrapper {
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 1000px;
     margin: 0 auto;
 }
